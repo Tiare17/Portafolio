@@ -1,0 +1,36 @@
+.skills-hobbies {
+    background: #f5f4f4;
+    font-family: hurrican, cursive;
+    padding: 2rem;
+    color: #4d2121;
+}
+
+.skills {
+    margin-bottom: 2rem;
+}
+
+.skills__list {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.hobbies__item {
+    
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+    margin-right: 100px;
+}
+
+.hobbies__list {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+font-size: small;
+margin-top: 1rem;
+}
+
