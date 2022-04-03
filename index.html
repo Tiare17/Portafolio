@@ -1,79 +1,119 @@
 <!DOCTYPE html>
 <html lang="es_CL">
-    <head>
-        <meta charset="UTF_8">
-        <meta name="viewport" content="width=device__width, initial__scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portafolio Tiare Viveros</title>
-        <link href="./css/cabecera.css" rel="stylesheet">
-    </head>
-    <body>
-        <header class="cabecera">
-            <h1 class="logo">&#10048;Tiare Viveros</h1>
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="#sobreMi">Sobre mi</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#formacion">Formación</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#proyectos">Proyectos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="saludo">
-            <h2 class="saludo__titulo">Hola, mi nombre es Tiare Viveros y contruyo paginas web</h2>
-            <p class="saludo__parrafo">Tengo 37 años, soy Chilena y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-            <img class="saludo__imagen" src="#" alt="Tiare Viveros">
+
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device__width, initial__scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Tiare Viveros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b028e2e990.js" crossorigin="anonymous"></script>
+    <link href="./css/cabecera.css" rel="stylesheet">
+    <link href="./css/menu.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/saludo.css" rel="stylesheet">
+    <link href="./css/sobreMi.css" rel="stylesheet">
+    <link href="./css/skills-hobbies.css" rel="stylesheet">
+    <link href="./css/formacion.css" rel="stylesheet">
+    <link href="./css/proyectos.css" rel="stylesheet">
+    <link href="./css/contacto.css" rel="stylesheet">
+    <link href="./css/pie-pagina.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1 class="logo">&#10048;Tiare Viveros</h1>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="#sobreMi">Sobre mi</a></li>
+                <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+                <li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                <li class="menu__item"><a class="menu__link" href="#formacion">Formación</a></li>
+                <li class="menu__item"><a class="menu__link" href="#proyectos">Proyectos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="saludo">
+        <div class="saludo__texto">
+            <h2 class="saludo__titulo">Hola, mi nombre es Tiare Viveros y construyo paginas web</h2>
+            <p class="saludo__parrafo">Tengo 37 años, soy Chilena y actualmente estoy participando del proyecto Oracle
+                ONE en Alura Latam.</p>
             <ul class="redes">
                 <li class="redes__item"><a class="redes__link" href="#">Github &#129133;</a></li>
                 <li class="redes__item"><a class="redes__link" href="#">Linkedin &#129133;</a></li>
                 <li class="redes__item"><a class="redes__link" href="#">Curriculo &#129133;</a></li>
             </ul>
-        </section>
-        <section class="sobreMi" id="sobreMi">
-            <h2 class="sobreMi__titulo">Sobre mi</h2>
-            <p class="sobreMi__descripcion"></p>
-        </section>
+        </div>
+        <img class="saludo__imagen" src="./unsplash_anAAZ0nrqBY.png" alt="Tiare Viveros">
+    </section>
+    <section class="sobreMi" id="sobreMi">
+        <h2 class="sobreMi__titulo">Sobre mi...</h2>
+        <p class="sobreMi__descripcion">
+            Estudié y trabajé en el area de comercio exterior, luego me independice
+            abrí una tienda de ropa interior y comencé a explorar el mundo del emprendimiento que es algo que me
+            encanta y a lo que me gustaría seguir dedicandome.
+        </p>
+        <p class="sobreMi__descripcion">
+            Actualmente estoy explorando el area de la técnologia que es otro de mis intereses ya que mi objetivo
+            es dedicarme al emprendimiento digital.
+        </p>
+    </section>
+    <div class="skills-hobbies">
         <section class="skills" id="skills">
             <h2 class="skills__titulo">Skills</h2>
+            <ul class="skills__list">
+                <i class="fa-brands fa-html5">HTML5</i>
+                <i class="fa-brands fa-css3-alt">CSS3</i>
+                <i class="fa-brands fa-js">JavaScript</i>
+                <i class="fa-brands fa-node">node JS</i>
+            </ul>
         </section>
         <section class="hobbies" id="hobbies">
             <h2 class="hobbies__titulo">Hobbies</h2>
+            <ul class="hobbies__list">
+                <li class="hobbies__item"><i class="fa-solid fa-book"></i>Leer</li>
+                <li class="hobbies__item"><i class="fa-solid fa-tv"></i>Ver series</li>
+                <li class="hobbies__item"><i class="fa-solid fa-chalkboard-user"></i>Aprender cosas nuevas</li>
+                <li class="hobbies__item"><i class="fa-solid fa-headphones-simple"></i>Escuchar música</li>
+            </ul>
         </section>
-        <section class="formacion" id="formacion">
-            <h2 class="Formacion__titulo">Formación Académica</h2>
+    </div>
+    <section class="formacion" id="formacion">
+        <h2 class="Formacion__titulo">Formación Académica</h2>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        <section class="encriptador">
+            <img class="encriptador__imagen" src="#" alt="Proyecto encriptador">
+            <h3 class="encriptador__titulo">Encriptador de texto</h3>
+            <p class="encriptador__detalle">Challenge Alura Codificador</p>
+            <input type="link" value="Repositorio" class="encriptador__repositorio">
+            <input type="link" value="Ver demo" class="encriptador__verDemo">
         </section>
-        <section class="proyectos" id="proyectos">
-            <h2 class="experiencia__titulo">Experiencia profesional</h2>
-            <section class="encriptador">
-                <img class="encriptador__imagen" src="#" alt="Proyecto encriptador">
-                <h3 class="encriptador__titulo">Encriptador de texto</h3>
-                <p class="encriptador__detalle">Challenge Alura Codificador</p>
-                <input type="link" value="Repositorio" class="encriptador__repositorio">
-                <input type="link" value="Ver demo" class="encriptador__verDemo">
-            </section>
-        </section>
-    </body>
-    <footer class="piePagina">
-        <form class="formContacto" id="contacto">
-            <h2 class="formContacto__titulo">Contacto</h2>
-            <p class="formContacto__detalle">¿Quieres contactarme?</p>
-            <p class="formContacto__detalle">Completa el siguinte formulario y te contactaré 
-            lo antes posible &#128522;</p>
-            <section class="input"> 
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input__nombre" required>
-                <label for="correoelectronico">Correo Electrónico</label>
-                <input type="email" id="correoelectronico" class="input__correo" required placeholder="email@dominio.com">
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" class="input__telefono" required placeholder="(XX) XXXX XXXX">
-                <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" class="input__mensaje" required></textarea>
-                <input type="submit" value="Enviar" class="input__enviar">
-            </section>    
-        </form>
-        <h2>Desarrollado por &#169;Tiare Viveros</h2>
-        <h2>2022</h2>
-    </footer>
+    </section>
+</body>
+
+<form class="formContacto" id="contacto">
+    <h2 class="formContacto__titulo">Contacto</h2>
+    <p class="formContacto__detalle">¿Quieres contactarme?</p>
+    <p class="formContacto__detalle">Completa el siguinte formulario y te contactaré
+        lo antes posible &#128522;</p>
+    <section class="input">
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input__nombre" required>
+        <label for="correoelectronico">Correo Electrónico</label>
+        <input type="email" id="correoelectronico" class="input__correo" required placeholder="email@dominio.com">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input__telefono" required placeholder="(XX) XXXX XXXX">
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" class="input__mensaje" required></textarea>
+        <input type="submit" value="Enviar" class="input__enviar">
+    </section>
+</form>
+<footer class="piePagina">
+    <h2>Desarrollado por &#169;Tiare Viveros</h2>
+    <h2>2022</h2>
+</footer>
+
 </html>
