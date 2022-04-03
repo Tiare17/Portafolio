@@ -1,3 +1,21 @@
 .menu__lista {
     display: flex;
+    font-family: hurrican, cursive;
+}
+
+.menu__item {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #a15c5c;
+    transition: .5s;
+}
+
+.menu__link:hover {
+    box-shadow: 6px 6px 6px #CCC;
+    font-weight: bold;
+    border-radius: 20%;
 }
