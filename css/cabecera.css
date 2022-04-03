@@ -1,8 +1,14 @@
 .cabecera {
     align-items: center;
-    background: #f8ecec;
+    background: #f5f4f4;
     display: flex;
     justify-content: space-between;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1em;
+    
+}
+
+.logo {
+    color: #a15c5c;
+    font-family: Hurricane, cursive;
+    font-size: 30px;
 }
