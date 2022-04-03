@@ -1,0 +1,17 @@
+.sobreMi {
+    background: #e6d9d9;
+    font-family: hurrican, cursive;
+    padding: 2rem;
+    color: #4d2121;
+}
+
+.sobreMi__titulo {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.sobreMi__descripcion {
+    line-height: 1.3;
+    margin-top: 1rem;
+}
