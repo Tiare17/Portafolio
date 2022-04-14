@@ -1,7 +1,15 @@
-.formContacto {
-    background: #e6d9d9;
+.form {
     width: 100%;
     font-family: hurrican, cursive;
     padding: 2rem;
     color: #4d2121; 
+    display: flex;
+    
+}
+
+.form
+
+.input {
+    display: flex;
+    flex-direction: column;
 }
