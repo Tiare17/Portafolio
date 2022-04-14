@@ -1,6 +1,53 @@
 .proyectos {
-    background: #f5f4f4;
     font-family: hurrican, cursive;
     padding: 2rem;
     color: #4d2121;
+}
+
+.encriptador {
+    margin-top: 1rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+.encriptador__titulo {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.encriptador__repositorio {
+    border: 1px solid #d46f86;
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: #d46f86;
+    margin-top: 5px;
+}
+
+.encriptador__repositorio:hover {
+    box-shadow: 6px 6px 6px #CCC;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.encriptador__verDemo {
+    background: #d46f86;
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    border: none;
+}
+
+.encriptador__verDemo:hover {
+    box-shadow: 6px 6px 6px #CCC;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.encriptador__detalle {
+    font-size: small;
 }
