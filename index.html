@@ -18,6 +18,7 @@
     <link href="./css/proyectos.css" rel="stylesheet">
     <link href="./css/contacto.css" rel="stylesheet">
     <link href="./css/pie-pagina.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
                 <li class="redes__item"><a class="redes__link" href="#">Curriculo &#129133;</a></li>
             </ul>
         </div>
-        <img class="saludo__imagen" src="./unsplash_anAAZ0nrqBY.png" alt="Tiare Viveros">
+        <img class="saludo__imagen" src="./imagen/unsplash_anAAZ0nrqBY.png" alt="Tiare Viveros">
     </section>
     <section class="sobreMi" id="sobreMi">
         <h2 class="sobreMi__titulo">Sobre mi...</h2>
@@ -63,10 +64,10 @@
         <section class="skills" id="skills">
             <h2 class="skills__titulo">Skills</h2>
             <ul class="skills__list">
-                <i class="fa-brands fa-html5">HTML5</i>
-                <i class="fa-brands fa-css3-alt">CSS3</i>
-                <i class="fa-brands fa-js">JavaScript</i>
-                <i class="fa-brands fa-node">node JS</i>
+                <li class="skills__item"><i class="fa-brands fa-html5"></i>HTML5</li>
+                <li class="skills__item"><i class="fa-brands fa-css3-alt"></i>CSS3</li>
+                <li class="skills__item"><i class="fa-brands fa-js"></i>JavaScript</li>
+                <li class="skills__item"><i class="fa-brands fa-node"></i>Node JS</li>
             </ul>
         </section>
         <section class="hobbies" id="hobbies">
@@ -81,35 +82,57 @@
     </div>
     <section class="formacion" id="formacion">
         <h2 class="Formacion__titulo">Formación Académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__descripcion">
+                <img class="formacion__img" src="./imagen/cft-simon-bolivar.png" alt="CFT Simón Bolivar">
+                <h2 class="formacion__nombre">Técnico en comercio Exterior</h2>
+                <p class="formacion__ano">2003-2004</p>
+            </li>
+            <li class="formacion__descripcion">
+                <img class="formacion__img" src="./imagen/iacc.png" alt="iacc">
+                <h2 class="formacion__nombre">Diplomado Emprendimiento y Creación de Negocios</h2>
+                <p class="formacion__ano">2020</p>
+            </li>
+            <li class="formacion__descripcion">
+                <img class="formacion__img" src="./imagen/image 8.png" alt="Alura">
+                <h2 class="formacion__nombre">Formación Front-End</h2>
+                <p class="formacion__ano">2022</p>
+            </li>
+        </ul>
     </section>
     <section class="proyectos" id="proyectos">
         <h2 class="proyectos__titulo">Proyectos</h2>
         <section class="encriptador">
             <img class="encriptador__imagen" src="#" alt="Proyecto encriptador">
-            <h3 class="encriptador__titulo">Encriptador de texto</h3>
-            <p class="encriptador__detalle">Challenge Alura Codificador</p>
-            <input type="link" value="Repositorio" class="encriptador__repositorio">
-            <input type="link" value="Ver demo" class="encriptador__verDemo">
+            <div class="encriptador__info">
+                <h3 class="encriptador__titulo">Encriptador de texto</h3>
+                <p class="encriptador__detalle">Challenge Alura Codificador</p>
+                <input type="link" value="Repositorio" class="encriptador__repositorio">
+                <input type="link" value="Ver demo" class="encriptador__verDemo">
+            </div>
         </section>
     </section>
 </body>
 
-<form class="formContacto" id="contacto">
-    <h2 class="formContacto__titulo">Contacto</h2>
-    <p class="formContacto__detalle">¿Quieres contactarme?</p>
-    <p class="formContacto__detalle">Completa el siguinte formulario y te contactaré
-        lo antes posible &#128522;</p>
-    <section class="input">
-        <label for="nombreapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreapellido" class="input__nombre" required>
-        <label for="correoelectronico">Correo Electrónico</label>
-        <input type="email" id="correoelectronico" class="input__correo" required placeholder="email@dominio.com">
-        <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" class="input__telefono" required placeholder="(XX) XXXX XXXX">
-        <label for="mensaje">Mensaje</label>
-        <textarea cols="70" rows="10" class="input__mensaje" required></textarea>
-        <input type="submit" value="Enviar" class="input__enviar">
-    </section>
+<form class="form" id="contacto">
+    <img class="form__img" src="#" alt="imagen contacto">
+    <div class="formContacto">
+        <h2 class="formContacto__titulo">Contacto</h2>
+        <p class="formContacto__detalle">¿Quieres contactarme?</p>
+        <p class="formContacto__detalle">Completa el siguinte formulario y te contactaré
+            lo antes posible &#128522;</p>
+        <section class="input">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input__nombre" required>
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input__correo" required placeholder="email@dominio.com">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input__telefono" required placeholder="(XX) XXXX XXXX">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" class="input__mensaje" required></textarea>
+            <input type="submit" value="Enviar" class="input__enviar">
+        </section>
+    </div>
 </form>
 <footer class="piePagina">
     <h2>Desarrollado por &#169;Tiare Viveros</h2>
