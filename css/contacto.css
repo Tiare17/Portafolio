@@ -7,9 +7,20 @@
     
 }
 
-.form
+.formContacto__titulo {
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+}
 
 .input {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+    
+}
+
+.form__img {
+    margin-right: 3rem;
+    border-radius: 20%;
 }
