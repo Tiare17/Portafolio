@@ -17,12 +17,15 @@
     background: white;
     margin-right: 15px;
     padding: 30px;
-    font-size: small;
+    font-size: medium;
 }
 
 .skills__titulo, .hobbies__titulo {
     margin-bottom: 2rem;
+    font-size: larger;
+    font-weight: bolder;
 }
+
 
 
 
