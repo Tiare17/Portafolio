@@ -4,10 +4,16 @@
     color: #4d2121;
 }
 
+.proyectos__titulo {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .encriptador {
     margin-top: 1rem;
-    justify-content: space-around;
+    
     display: flex;
+    align-items: flex-start;
 }
 
 .encriptador__titulo {
@@ -24,6 +30,7 @@
     text-align: center;
     color: #d46f86;
     margin-top: 5px;
+    
 }
 
 .encriptador__repositorio:hover {
@@ -40,6 +47,7 @@
     color: white;
     margin-top: 5px;
     border: none;
+    
 }
 
 .encriptador__verDemo:hover {
@@ -48,6 +56,15 @@
     font-weight: bold;
 }
 
+
+
 .encriptador__detalle {
     font-size: small;
+}
+
+.encriptador__imagen {
+    width: 400px;
+    height: 200px;
+    margin-right: 3rem;
+    border-radius: 5%;
 }
