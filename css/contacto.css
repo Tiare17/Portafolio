@@ -1,10 +1,14 @@
 .form {
     width: 100%;
-    font-family: hurrican, cursive;
-    padding: 2rem;
+    font-family: Kalam, cursive;
+    padding: 2.5rem;
     color: #4d2121; 
     display: flex;
-    
+    overflow: auto;
+}
+
+.formContacto {
+    margin-right: 3rem;
 }
 
 .formContacto__titulo {
@@ -17,7 +21,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
-    
+    width: 100%;
+}
+
+.input__mensaje {
+    width: 100%;
 }
 
 .form__img {
