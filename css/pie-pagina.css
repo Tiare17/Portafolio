@@ -1,7 +1,9 @@
 .piePagina {
+    width: 100%;
     background: #f5f4f4;
-    font-family: hurrican, cursive;
-    padding: 2rem;
+    font-family: Kalam, cursive;
+    padding: 2.5rem;
     color: #4d2121;
     text-align: center;
+    margin-right: 3rem;
 }
