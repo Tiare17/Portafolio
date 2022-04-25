@@ -1,5 +1,5 @@
 .skills-hobbies {
-    font-family: hurrican, cursive;
+    font-family: Kalam, cursive;
     padding: 2rem;
     color: #4d2121;
     display: flex;
@@ -14,7 +14,7 @@
 
 .skills__item, .hobbies__item {
     flex-grow: 1;
-    background: white;
+    background: #f5c7c7;
     margin-right: 15px;
     padding: 30px;
     font-size: medium;
