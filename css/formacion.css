@@ -1,5 +1,5 @@
 .formacion {
-    font-family: hurrican, cursive;
+    font-family: Kalam, cursive;
     padding: 2rem;
     color: #4d2121;
     display: flex;
@@ -22,7 +22,7 @@
     margin-bottom: 1rem;
     margin-top: 2rem;
     position: static;
-    background: white;
+    background: none;
 }
 
 .formacion__descripcion {
